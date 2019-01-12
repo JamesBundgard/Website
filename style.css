@@ -1,0 +1,98 @@
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.col-info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    opacity: 1;
+    overflow-anchor: none;
+}
+
+.back:hover h2 {
+    font-size: 38px;
+    box-shadow: None;
+}
+
+.back:hover .img-icon {
+    height: 87px;
+}
+
+#arrow:hover{
+    height: 4.5em;
+}
+
+
+.img-icon {
+    height: 80px; 
+    width: auto;
+    padding-bottom: 20px;
+}
+
+#prof {
+    background: url("math3.jpg") no-repeat;
+}
+#res {
+    background: url("server2.jpg") no-repeat;
+}
+#port {
+    background: url("laptop.jpg") no-repeat;
+}
+#con {
+    background: url("office.jpg") no-repeat;
+}
+#prof, #res, #port, #con {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-position: center; 
+    background-size: cover;
+}
+#scrollUp{
+    padding-top: 1%;
+    text-align: center;
+}
+#arrow{
+    height: 4em;
+    width: auto;
+}
+#scrollUp{
+    height: 4.5em;
+}
+.back {
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.5);
+    transition: 0.5s;
+}
+.back:hover {
+    background-color: rgba(30, 30, 30, 0);
+}
+.sub {
+    padding-top: 5%;
+    width: 75%;
+    text-align: right;
+}
+.sub2 {
+    padding-top: 15%;
+    width: 75%;
+    text-align: left;
+}
+#wf {
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+.col-md-6 {
+    text-align: center;
+}
+#bio {
+    text-align: left;
+    padding-right: 15%
+}
