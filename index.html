@@ -8,12 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
+
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    
+
     <title>James Bundgard</title>
 </head>
-    
+
 <body>
 
     <div class="container-fluid">
@@ -21,7 +21,7 @@
             <div class="col-md-3" id="prof" >
                 <div class="back" id="bprof">
                     <div class="col-info">          
-                        <img src="image.png" class="img-icon" alt="Profile">
+                        <img src="resources/image.png" class="img-icon" alt="Profile">
                         <h2>PROFILE</h2>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
             <div class="col-md-3" id="port">
                 <div class="back" id="bport">
                     <div class="col-info">
-                        <img src="case.png" class="img-icon" alt="Briefcase">
+                        <img src="resources/case.png" class="img-icon" alt="Briefcase">
                         <h2>PORTFOLIO</h2>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
             <div class="col-md-3" id="res">
                 <div class="back" id="bres">
                     <div class="col-info">
-                        <img src="paper.png" class="img-icon" alt="Paper">
+                        <img src="resources/paper.png" class="img-icon" alt="Paper">
                         <h2>RESUME</h2>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
             <div class="col-md-3" id="con">
                 <div class="back" id="bcon">
                     <div class="col-info">
-                        <img src="plane.png" class="img-icon" alt="Plane">
+                        <img src="resources/plane.png" class="img-icon" alt="Plane">
                         <h2>CONTACT</h2>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
         </div>
         <div class="row" id="scrollUp">
             <div class="col-md-12">
-                <img src="arrow.png" id="arrow" alt="Arrow">
+                <img src="resources/arrow.png" id="arrow" alt="Arrow">
             </div>
         </div>
         <div class="row" id="profile">
@@ -62,14 +62,14 @@
                     <h1>James <br> Bundgard</h1>
                     <h4>Computer Science Undergraduate</h4>
                 </div>
-                <img src="waterfall.jpg" class="rounded-circle" alt="Waterfall" id="wf">
+                <img src="resources/waterfall.jpg" class="rounded-circle" alt="Waterfall" id="wf">
             </div>
             <div class="col-md-6">
                 <div class="sub2">
                     <h3>Who am I?</h3>
                 </div>
                 <p id="bio">
-                    As the title to the right may suggest, my name is James Bundgard and I am a first-year computer science undergradute at the University of Waterloo. 
+                    As the title to the right may suggest, my name is James Bundgard and I am a first-year computer science undergradute at the University of Waterloo.
                 <a href="https://www.linkedin.com/in/james-bundgard-961907178/">Linkedin.</a></p>
             </div>
             <div class="col-md-12">
@@ -109,7 +109,7 @@
                     <h3>Who am I?</h3>
                 </div>
                 <p id="bio">
-                    As the title to the right may suggest, my name is James Bundgard and I am a first-year computer science undergradute at the University of Waterloo. 
+                    As the title to the right may suggest, my name is James Bundgard and I am a first-year computer science undergradute at the University of Waterloo.
                 <a href="https://www.linkedin.com/in/james-bundgard-961907178/">Linkedin.</a></p>
             </div>
             <div class="col-md-12">
@@ -138,19 +138,19 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="row" id="portfolio">
             <div class="col-md-12">
                 <p>test</p>
             </div>
         </div>
-        
+
         <div class="row" id="resume">
             <div class="col-md-12">
                 <p>test</p>
             </div>
         </div>
-        
+
         <div class="row" id="contact">
             <div class="col-md-12">
                 <p>test</p>
@@ -162,20 +162,20 @@
             </div>
         </div>
     </div>
-    
-    
+
+
 
     <script>
-        
+
         $(document).ready(function(){
-            
+
             $("#foot").hide();
             $("#profile").hide();
             $("#portfolio").hide();
             $("#resume").hide();
             $("#contact").hide();
             $("#scrollUp").hide();
-            
+
             function clickAction(el) {
                 el[0].show();
                 el[1].hide();
@@ -187,24 +187,24 @@
                 window.scrollTo({
                     top: arrow.position().top,
                     left: 0,
-                    behavior: 'smooth' 
+                    behavior: 'smooth'
                 });
-                
-                
+
+
             }
-            
+
             $("#prof").click(function(event){
                 clickAction([$("#profile"), $("#portfolio"), $("#resume"), $("#contact")])
             });
-            
+
             $("#port").click(function(){
                 clickAction([$("#portfolio"), $("#profile"), $("#resume"), $("#contact")])
             });
-            
+
             $("#res").click(function(){
                 clickAction([$("#resume"), $("#portfolio"), $("#profile"), $("#contact")])
             });
-            
+
             $("#con").click(function(){
                 clickAction([$("#contact"), $("#resume"), $("#portfolio"), $("#profile")])
             });
@@ -212,7 +212,7 @@
                 window.scrollTo({
                     top: 0,
                     left: 0,
-                    behavior: 'smooth' 
+                    behavior: 'smooth'
                 });
             });
         });

@@ -31,27 +31,27 @@ body {
 
 
 .img-icon {
-    height: 80px; 
+    height: 80px;
     width: auto;
     padding-bottom: 20px;
 }
 
 #prof {
-    background: url("math3.jpg") no-repeat;
+    background: url("resources/math3.jpg") no-repeat;
 }
 #res {
-    background: url("server2.jpg") no-repeat;
+    background: url("resources/server2.jpg") no-repeat;
 }
 #port {
-    background: url("laptop.jpg") no-repeat;
+    background: url("resources/laptop.jpg") no-repeat;
 }
 #con {
-    background: url("office.jpg") no-repeat;
+    background: url("resources/office.jpg") no-repeat;
 }
 #prof, #res, #port, #con {
     padding-left: 0px;
     padding-right: 0px;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
 }
 #scrollUp{
