@@ -7,7 +7,7 @@ body {
 .col-info{
     position: absolute;
     top: 50%;
-    transform: translateY(-60%);
+    transform: translateY(-50%);
     width: 100%;
     text-align: center;
     color: white;
@@ -48,6 +48,11 @@ body {
 #con {
     background: url("resources/office.jpg") no-repeat;
 }
+#foot {
+    background-color: royalblue;
+    color: white;
+    padding-top: 6px;
+}
 #prof, #res, #port, #con {
     padding-left: 0px;
     padding-right: 0px;
@@ -75,13 +80,24 @@ body {
 }
 .sub {
     padding-top: 5%;
-    width: 75%;
+    padding-right: 10%;
     text-align: right;
 }
 .sub2 {
+    padding-left: 10%;
     padding-top: 15%;
     width: 75%;
     text-align: left;
+}
+.element-head{
+    text-align: center;
+}
+.element-content{
+    padding-top: 5%;
+    padding-bottom: 13%;
+    font-size: 18px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 #wf {
     width: 70%;
@@ -92,7 +108,17 @@ body {
 .col-md-6 {
     text-align: center;
 }
+.span-title{
+    padding-top: 1em;
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+.span-title h3{
+    font-size: 32px;
+}
 #bio {
     text-align: left;
-    padding-right: 15%
+    font-size: 18px;
+    padding-right: 15%;
+    padding-left: 10%;
 }
